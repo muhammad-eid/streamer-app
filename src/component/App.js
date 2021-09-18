@@ -1,7 +1,7 @@
 import React from "react";
-
+import BrowserRouter from "./streams/browserRouter";
 const App = () => {
-    return <div>App</div>
-}
+  return <BrowserRouter />;
+};
 
 export default App;
